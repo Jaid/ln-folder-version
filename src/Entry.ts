@@ -4,7 +4,7 @@ import fs from 'fs-extra'
 import globby from 'globby'
 import * as lodash from 'lodash-es'
 
-import path from '~/lib/mixedPath.js'
+import path from 'lib/mixedPath.js'
 
 export type Options = {
   output: string

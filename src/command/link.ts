@@ -7,7 +7,7 @@ import fs from 'fs-extra'
 import * as lodash from 'lodash-es'
 import readFileYaml from 'read-file-yaml'
 
-import path from '~/lib/mixedPath.js'
+import path from 'lib/mixedPath.js'
 
 import {Entry} from '../Entry.js'
 
