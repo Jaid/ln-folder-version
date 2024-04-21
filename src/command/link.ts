@@ -1,3 +1,4 @@
+import * as path from 'forward-slash-path'
 import type {Options} from '../Entry.js'
 import type {ArgumentsCamelCase, Argv, CommandBuilder} from 'yargs'
 
@@ -6,8 +7,6 @@ import os from 'node:os'
 import fs from 'fs-extra'
 import * as lodash from 'lodash-es'
 import readFileYaml from 'read-file-yaml'
-
-import path from 'lib/mixedPath.js'
 
 import {Entry} from '../Entry.js'
 
